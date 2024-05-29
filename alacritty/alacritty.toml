@@ -1,0 +1,12 @@
+# import = ["/home/john/.config/alacritty/alacritty-master/dracula.toml"]
+import = ["/home/john/.config/alacritty/catppuccin-mocha.toml"]
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+
+[font]
+normal = { family = "FiraCode Nerd Font", style = "Regular"}
+size = 13
+
+[window]
+padding = { x = 15, y = 15}
