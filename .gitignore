@@ -25,3 +25,6 @@ session/
 vivaldi-snapshot/
 vivaldi/
 wofi/
+user-dirs.dirs
+user-dirs.locale
+tmux/
