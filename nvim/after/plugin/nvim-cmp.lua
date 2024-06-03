@@ -2,6 +2,7 @@
 local cmp = require('cmp')
 local lspkind = require('lspkind')
 local luasnip = require('luasnip')
+require('luasnip.loaders.from_vscode').lazy_load { paths = { '/home/john/.config/nvim/snippets' } }
 
 -- Set up nvim-cmp
 cmp.setup {

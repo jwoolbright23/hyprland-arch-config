@@ -19,7 +19,6 @@ return require('packer').startup(function(use)
 	tag = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
 	-- install jsregexp (optional!:).
 	run = "make install_jsregexp",
-	require('luasnip.loaders.from_vscode').lazy_load({ paths = { '~/.config/nvim/snippets' } })
     })
   use { 'nvim-tree/nvim-tree.lua', requires = { 'nvim-tree/nvim-web-devicons' } }
   use {
@@ -28,19 +27,17 @@ return require('packer').startup(function(use)
 	config = function()
 		require("scissors").setup ({
 			snippetDir = "/home/john/.config/nvim/snippets",
-			prefix = "gs"
 		})
 	end,
       }
   use {
 	"hrsh7th/nvim-cmp",
         requires = {
-            "hrsh7th/cmp-buffer", "hrsh7th/cmp-nvim-lsp",
-            'quangnguyen30192/cmp-nvim-ultisnips', 'hrsh7th/cmp-nvim-lua',
-            'octaltree/cmp-look', 'hrsh7th/cmp-path', 'hrsh7th/cmp-calc',
-            'f3fora/cmp-spell', 'hrsh7th/cmp-emoji'
+            'neovim/nvim-lspconfig', 'hrsh7th/cmp-buffer', 'hrsh7th/cmp-nvim-lsp', 'hrsh7th/cmp-nvim-lua',
+	    'hrsh7th/cmp-path', 'hrsh7th/cmp-emoji'
     	}
       }
+  use { 'saadparwaiz1/cmp_luasnip' }
   use {
         'tzachar/cmp-tabnine',
         run = './install.sh',

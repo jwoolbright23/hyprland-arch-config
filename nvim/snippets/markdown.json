@@ -1,1 +1,62 @@
-{"LC Learn Question":{"prefix":"\/\/question","scope":"markdown,md","body":["{{% notice green ${1:Question} %}}","$2","{{% \/notice %}}$0"]},"LC Learn Picture":{"prefix":"\/\/picture","scope":"markdown,md","body":["![${1:alt-text}](pictures\/${2:path}.png?classes=border)$0"]},"testing this out?":{"prefix":"testing this out?","body":"testing this OUT!!"},"LC Learn Tip":{"prefix":"\/\/tip","scope":"markdown,md","body":["{{% notice green ${1:Tip} %}}","$2","{{% \/notice %}}$0"]},"LC Learn Answer Expand":{"prefix":"\/\/answer","scope":"markdown,md","body":["{{% expand \"${1:CLICK FOR ANSWER}\" %}}","$2","{{% \/expand %}}"]},"LC Learn Resize Picture":{"prefix":"\/\/resize-picture","scope":"markdown,md","body":["![${1:alt-text}](pictures\/${2:path}.png?classes=border&height=650px)$0"]},"LC Learn Example":{"prefix":"\/\/example","scope":"markdown,md","body":["{{% notice blue ${1:Example} %}}","$2","{{% \/notice %}}$0"]},"LC Learn Answer":{"prefix":"\/\/solution","scope":"markdown,md","body":["<!-- Solution: ${1:example solution here} -->$0"]},"LC Learn Notice":{"prefix":"\/\/notice","scope":"markdown,md","body":["{{% notice blue ${1:Note} %}}","$2","{{% \/notice %}}$0"]},"LC Learn Normal Expand":{"prefix":"\/\/expand","scope":"markdown,md","body":["{{% expand \"${1:title}\" %}}","$2","{{% \/expand %}}"]},"LC Learn Accuaracy":{"prefix":"\/\/accuracy","scope":"markdown,md","body":["<!-- ACCURACY: ${1:example accuracy review request} -->$0"]},"LC Learn Clarity":{"prefix":"\/\/clarity","scope":"markdown,md","body":["<!-- CLARITY: ${1:example clarification review request} -->$0"]},"LC Learn Code":{"prefix":"\/\/code","scope":"markdown,md","body":["```$1 {linenos=table}","$2","```"]},"LC Learn Warning":{"prefix":"\/\/warning","scope":"markdown,md","body":["{{% notice orange ${1:Warning} %}}","$2","{{% \/notice %}}$0"]},"LC Learn TODO":{"prefix":"\/\/todo","scope":"markdown,md","body":["<!-- TODO: ${1:example TODO item here} -->$0"]},"LC Learn Relref":{"prefix":"\/\/relref","scope":"markdown,md","body":["[${1:relref}]({{< $2 >}})"]}}
+{
+    "LC Learn Picture": {
+        "prefix": "picture",
+        "body": ["![${1:alt-text}](pictures/${2:path}.png?classes=border)$0"]
+    },
+    "LC Learn Resize Picture": {
+        "prefix": "resize-picture",
+        "body": ["![${1:alt-text}](pictures/${2:path}.png?classes=border&height=650px)$0"]
+    },
+    "LC Learn Notice": {
+        "prefix": "notice",
+        "body": ["{{% notice blue ${1:Note} %}}", "$2", "{{% /notice %}}$0"]
+    },
+    "LC Learn Warning": {
+        "prefix": "warning",
+        "body": ["{{% notice orange ${1:Warning} %}}", "$2", "{{% /notice %}}$0"]
+    },
+    "LC Learn Question": {
+        "prefix": "question",
+        "body": ["{{% notice green ${1:Question} %}}", "$2", "{{% /notice %}}$0"]
+    },
+    "LC Learn Tip": {
+        "prefix": "tip",
+        "body": ["{{% notice green ${1:Tip} %}}", "$2", "{{% /notice %}}$0"]
+    },
+    "LC Learn Example": {
+        "prefix": "example",
+        "body": ["{{% notice blue ${1:Example} %}}", "$2", "{{% /notice %}}$0"]
+    },
+    "LC Learn Normal Expand": {
+        "prefix": "expand",
+        "body": ["{{% expand \"${1:title}\" %}}", "$2", "{{% /expand %}}"]
+    },
+    "LC Learn Answer Expand": {
+        "prefix": "answer",
+        "body": ["{{% expand \"${1:CLICK FOR ANSWER}\" %}}", "$2", "{{% /expand %}}"]
+    },
+    "LC Learn TODO": {
+        "prefix": "todo",
+        "body": ["<!-- TODO: ${1:example TODO item here} -->$0"]
+    },
+    "LC Learn Answer": {
+        "prefix": "solution",
+        "body": ["<!-- Solution: ${1:example solution here} -->$0"]
+    },
+    "LC Learn Clarity": {
+        "prefix": "clarity",
+        "body": ["<!-- CLARITY: ${1:example clarification review request} -->$0"]
+    },
+    "LC Learn Accuaracy": {
+        "prefix": "accuracy",
+        "body": ["<!-- ACCURACY: ${1:example accuracy review request} -->$0"]
+    },
+    "LC Learn Code": {
+        "prefix": "code",
+        "body": ["```$1 {linenos=table}", "$2", "```"]
+    },
+    "LC Learn Relref": {
+        "prefix": "relref",
+        "body": ["[${1:relref}]({{< $2 >}})"]
+    }
+}

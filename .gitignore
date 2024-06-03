@@ -28,3 +28,6 @@ wofi/
 user-dirs.dirs
 user-dirs.locale
 tmux/
+TabNine/
+TabNine/*
+/TabNine
