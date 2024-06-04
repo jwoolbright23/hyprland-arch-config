@@ -6,6 +6,12 @@ require('luasnip.loaders.from_vscode').lazy_load { paths = { '/home/john/.config
 
 -- Set up nvim-cmp
 cmp.setup {
+  completion = {
+  autocomplete = false,
+  },
+  mapping = {
+    ['<C-Space>'] = cmp.mapping.complete()
+  },
   snippet = {
     expand = function(args)
       luasnip.lsp_expand(args.body)
