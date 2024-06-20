@@ -7,6 +7,7 @@ vim.keymap.set("n", "<leader>pv ", vim.cmd.Ex)
 vim.opt.guicursor = "n-v-i-c:ver25-iCursor"
 
 vim.cmd.colorscheme "catppuccin-mocha"
+-- vim.cmd.colorscheme "cyberdream"
 
 vim.wo.number = true
 

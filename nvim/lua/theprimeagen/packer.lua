@@ -13,6 +13,7 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
   use { 'catppuccin/nvim', as = 'catppuccin' }
+  use { "scottmckendry/cyberdream.nvim" }
   use({
 	"L3MON4D3/LuaSnip",
 	-- follow latest release.
