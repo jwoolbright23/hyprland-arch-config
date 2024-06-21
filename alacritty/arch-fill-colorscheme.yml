@@ -1,0 +1,75 @@
+# Alacritty Colorscheme inspired by the provided image
+
+colors:
+  primary:
+    background: '#0d0e10'
+    foreground: '#91daf2'
+    dim_foreground: '#1a3d66'
+    bright_foreground: '#91daf2'
+
+  cursor:
+    text: '#0d0e10'
+    cursor: '#5399c6'
+
+  vi_mode_cursor:
+    text: '#0d0e10'
+    cursor: '#91daf2'
+
+  search:
+    matches:
+      foreground: '#0d0e10'
+      background: '#5399c6'
+    focused_match:
+      foreground: '#0d0e10'
+      background: '#91daf2'
+
+  footer_bar:
+    foreground: '#0d0e10'
+    background: '#5399c6'
+
+  hints:
+    start:
+      foreground: '#0d0e10'
+      background: '#91daf2'
+    end:
+      foreground: '#0d0e10'
+      background: '#5399c6'
+
+  selection:
+    text: '#0d0e10'
+    background: '#5399c6'
+
+  normal:
+    black: '#0f141e'
+    red: '#f38ba8'
+    green: '#a6e3a1'
+    yellow: '#f9e2af'
+    blue: '#255c8f'
+    magenta: '#f5c2e7'
+    cyan: '#94e2d5'
+    white: '#bac2de'
+
+  bright:
+    black: '#142947'
+    red: '#f38ba8'
+    green: '#a6e3a1'
+    yellow: '#f9e2af'
+    blue: '#255c8f'
+    magenta: '#f5c2e7'
+    cyan: '#94e2d5'
+    white: '#91daf2'
+
+  dim:
+    black: '#111c2f'
+    red: '#f38ba8'
+    green: '#a6e3a1'
+    yellow: '#f9e2af'
+    blue: '#1a3d66'
+    magenta: '#f5c2e7'
+    cyan: '#94e2d5'
+    white: '#bac2de'
+
+  indexed_colors:
+    - { index: 16, color: '#fab387' }
+    - { index: 17, color: '#91daf2' }
+

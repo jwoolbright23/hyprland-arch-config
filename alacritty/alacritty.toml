@@ -1,5 +1,6 @@
 # import = ["/home/john/.config/alacritty/alacritty-master/dracula.toml"]
 import = ["/home/john/.config/alacritty/catppuccin-mocha.toml"]
+# import = ["/home/john/.config/alacritty/arch-fill-colorscheme.toml"]
 
 [cursor]
 style = { shape = "Beam", blinking = "On" }
